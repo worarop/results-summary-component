@@ -8,7 +8,7 @@ function App() {
 
   return (
     <section className="grid place-content-center font-comforter">
-      <div className="flex justify-items-center w-full h-80 mt-24 mb-24 rounded-xl shadow-xl shadow-light-lavender">
+      <div className="flex justify-items-center md:flex-row w-full h-80 mt-24 mb-24 rounded-xl md:shadow-xl md:shadow-light-lavender sm:flex-col">
         <div className="w-56 rounded-xl text-center bg-gradient-to-t from-light-royal-blue to-light-slate">
           <h1 className="text-base mt-6 text-light-lavender">Your Result</h1>
           <div className="rounded-full w-28 h-28 mt-6 m-auto p-8 bg-gradient-to-t from-persian-blue to-violet-blue">
